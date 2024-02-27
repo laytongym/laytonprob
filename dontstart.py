@@ -1,4 +1,4 @@
-# Adapted! from https://github.com/NVIDIA/apex/blob/master/setup.py
+# check rep
 import sys
 import warnings
 import os
