@@ -101,7 +101,7 @@ if not SKIP_CUDA_BUILD:
     TORCH_MAJOR = int(torch.__version__.split(".")[0])
     TORCH_MINOR = int(torch.__version__.split(".")[1])
 
-    # Check, if ATen/CUDAGeneratorImpl.h is found, otherwise use ATen/cuda/CUDAGeneratorImpl.h
+    # Check, if ATen/CUDAGeneratorImpl.h is found
     # See https://github.com/pytorch/pytorch/pull/70650
     generator_flag = []
     torch_dir = torch.__path__[0]
