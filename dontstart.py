@@ -1,4 +1,4 @@
-# check rep
+# check rep for requir
 import sys
 import warnings
 import os
